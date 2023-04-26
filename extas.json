@@ -1,0 +1,20 @@
+{
+    "title": "",
+    "description": "",
+    "schema": "1.0",
+    "plugins": [],
+    "extensions": [
+        {
+            "class": "df\\components\\extensions\\access\\AccessContextExtension",
+            "interface": "df\\interfaces\\extensions\\access\\IAccessContextExtension",
+            "subject": "context",
+            "methods": [
+                "createAccess",
+                "hasAccess",
+                "getAccessSection",
+                "getAccessSubject",
+                "getCurrentPlayer"
+            ]
+        }
+    ]
+}
