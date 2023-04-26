@@ -1,0 +1,589 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5ad56779dff7c2b7498e6a19e56d5e0c",
+    "packages": [
+        {
+            "name": "jeyroik/extas-m",
+            "version": "2.0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/extas-m.git",
+                "reference": "17b37d0279b872c8d710151d62ca041892c2ca9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/extas-m/zipball/17b37d0279b872c8d710151d62ca041892c2ca9b",
+                "reference": "17b37d0279b872c8d710151d62ca041892c2ca9b",
+                "shasum": ""
+            },
+            "require": {
+                "jeyroik/sm-plugin-error-state": "*",
+                "jeyroik/sm-plugin-guarantee-state-id": "*",
+                "jeyroik/sm-plugin-max-try": "*",
+                "jeyroik/sm-plugin-on-failure": "*",
+                "jeyroik/sm-plugin-route-from-start": "*",
+                "jeyroik/sm-plugin-route-path": "*",
+                "jeyroik/sm-plugin-states-route": "*",
+                "league/container": "*",
+                "mongodb/mongodb": "*",
+                "psr/container": "*",
+                "symfony/console": "*",
+                "symfony/finder": "*"
+            },
+            "bin": [
+                "resources/bin/extas"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "EXTendable State Machine.",
+            "time": "2018-08-08T10:09:47+00:00"
+        },
+        {
+            "name": "jeyroik/sm-plugin-error-state",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/sm-plugin-error-state.git",
+                "reference": "8d3ddaedfd248643e53132a492c84ef3edcf2ffc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/sm-plugin-error-state/zipball/8d3ddaedfd248643e53132a492c84ef3edcf2ffc",
+                "reference": "8d3ddaedfd248643e53132a492c84ef3edcf2ffc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Plugin for jeyroik StateMachine. Let to use error state - valid state but in invalid case.",
+            "time": "2018-07-03T13:37:50+00:00"
+        },
+        {
+            "name": "jeyroik/sm-plugin-guarantee-state-id",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/sm-plugin-guarantee-state-id.git",
+                "reference": "6e44fdda312ae48697a8ec9970da8ba2b9f3aa90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/sm-plugin-guarantee-state-id/zipball/6e44fdda312ae48697a8ec9970da8ba2b9f3aa90",
+                "reference": "6e44fdda312ae48697a8ec9970da8ba2b9f3aa90",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Plugin for jeyroik StateMachine. Guarantee that every state has id.",
+            "time": "2018-07-16T15:32:46+00:00"
+        },
+        {
+            "name": "jeyroik/sm-plugin-max-try",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/sm-plugin-max-try.git",
+                "reference": "1cb43ebb96676863379966d6ab7365875cb7cb75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/sm-plugin-max-try/zipball/1cb43ebb96676863379966d6ab7365875cb7cb75",
+                "reference": "1cb43ebb96676863379966d6ab7365875cb7cb75",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Plugin for jeyroik StateMachine. Allow to use on terminate transition and max try parameter.",
+            "time": "2018-07-03T14:50:09+00:00"
+        },
+        {
+            "name": "jeyroik/sm-plugin-on-failure",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/sm-plugin-on-failure.git",
+                "reference": "674254edcf70fc4bd791755be05a7a82b7283691"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/sm-plugin-on-failure/zipball/674254edcf70fc4bd791755be05a7a82b7283691",
+                "reference": "674254edcf70fc4bd791755be05a7a82b7283691",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Plugin for jeyroik StateMachine. Allow to use on failure transition.",
+            "time": "2018-07-23T11:03:33+00:00"
+        },
+        {
+            "name": "jeyroik/sm-plugin-route-from-start",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/sm-plugin-route-from-start.git",
+                "reference": "54e0e5eac389987afc6e3958d45574c6a43d467c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/sm-plugin-route-from-start/zipball/54e0e5eac389987afc6e3958d45574c6a43d467c",
+                "reference": "54e0e5eac389987afc6e3958d45574c6a43d467c",
+                "shasum": ""
+            },
+            "require": {
+                "jeyroik/sm-plugin-states-route": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Plugin for jeyroik StateMachine. Just make start state more human-adopted.",
+            "time": "2018-07-16T15:34:51+00:00"
+        },
+        {
+            "name": "jeyroik/sm-plugin-route-path",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/sm-plugin-route-path.git",
+                "reference": "1bee97db6c86a73bc7af75a412e2dd97b15e6e15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/sm-plugin-route-path/zipball/1bee97db6c86a73bc7af75a412e2dd97b15e6e15",
+                "reference": "1bee97db6c86a73bc7af75a412e2dd97b15e6e15",
+                "shasum": ""
+            },
+            "require": {
+                "jeyroik/sm-plugin-states-route": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Plugin for jeyroik StateMachine. Add route representing as [from => to] series.",
+            "time": "2018-07-24T12:42:50+00:00"
+        },
+        {
+            "name": "jeyroik/sm-plugin-states-route",
+            "version": "2.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeyroik/sm-plugin-states-route.git",
+                "reference": "0c796dfbc4c747467cfcc4dd6da4c28aa7d24a3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeyroik/sm-plugin-states-route/zipball/0c796dfbc4c747467cfcc4dd6da4c28aa7d24a3c",
+                "reference": "0c796dfbc4c747467cfcc4dd6da4c28aa7d24a3c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeyroik\\extas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Plugin for jeyroik StateMachine. Allow to collect and show states route between each other.",
+            "time": "2018-07-24T14:02:40+00:00"
+        },
+        {
+            "name": "league/container",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/container.git",
+                "reference": "4de774704c3a83d1bb3f1b5f2bbb116ac6ced315"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/container/zipball/4de774704c3a83d1bb3f1b5f2bbb116ac6ced315",
+                "reference": "4de774704c3a83d1bb3f1b5f2bbb116ac6ced315",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "psr/container": "^1.0"
+            },
+            "provide": {
+                "psr/container-implementation": "^1.0"
+            },
+            "replace": {
+                "orno/di": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev",
+                    "dev-2.x": "2.x-dev",
+                    "dev-1.x": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Container\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phil Bennett",
+                    "email": "philipobenito@gmail.com",
+                    "homepage": "http://www.philipobenito.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A fast and intuitive dependency injection container.",
+            "homepage": "https://github.com/thephpleague/container",
+            "keywords": [
+                "container",
+                "dependency",
+                "di",
+                "injection",
+                "league",
+                "provider",
+                "service"
+            ],
+            "time": "2018-08-13T10:41:41+00:00"
+        },
+        {
+            "name": "mongodb/mongodb",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mongodb/mongo-php-library.git",
+                "reference": "b9f35916125976533f4b1e67a4a0ee7baf1d3bb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mongodb/mongo-php-library/zipball/b9f35916125976533f4b1e67a4a0ee7baf1d3bb9",
+                "reference": "b9f35916125976533f4b1e67a4a0ee7baf1d3bb9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-hash": "*",
+                "ext-json": "*",
+                "ext-mongodb": "^1.4.0",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.36 || ^6.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MongoDB\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                },
+                {
+                    "name": "Derick Rethans",
+                    "email": "github@derickrethans.nl"
+                },
+                {
+                    "name": "Katherine Walker",
+                    "email": "katherine.walker@mongodb.com"
+                }
+            ],
+            "description": "MongoDB driver library",
+            "homepage": "https://jira.mongodb.org/browse/PHPLIB",
+            "keywords": [
+                "database",
+                "driver",
+                "mongodb",
+                "persistence"
+            ],
+            "time": "2018-04-19T17:20:30+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v4.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ca80b8ced97cf07390078b29773dc384c39eee1f",
+                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<3.4",
+                "symfony/process": "<3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~3.4|~4.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/event-dispatcher": "~3.4|~4.0",
+                "symfony/lock": "~3.4|~4.0",
+                "symfony/process": "~3.4|~4.0"
+            },
+            "suggest": {
+                "psr/log-implementation": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/lock": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-07-26T11:24:31+00:00"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v4.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "e162f1df3102d0b7472805a5a9d5db9fcf0a8068"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/e162f1df3102d0b7472805a5a9d5db9fcf0a8068",
+                "reference": "e162f1df3102d0b7472805a5a9d5db9fcf0a8068",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-07-26T11:24:31+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-08-06T14:22:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
