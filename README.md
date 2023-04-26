@@ -1,0 +1,2 @@
+# deprecated-access
+Deprecated package
