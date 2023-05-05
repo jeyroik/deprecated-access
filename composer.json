@@ -3,7 +3,7 @@
   "description": "DeFlou access package",
   "require": {
     "jeyroik/sm-plugin-on-failure": "2.1.1",
-    "jeyroik/extas-m": "2.2.4"
+    "jeyroik/extas-m": "2.*"
   },
   "autoload": {
     "psr-4": {
