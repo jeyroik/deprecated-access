@@ -3,9 +3,6 @@
   "description": "DeFlou access package",
   "require": {
     "jeyroik/sm-plugin-on-failure": "2.1.1",
-    "psr/container": "1.0.0",
-    "league/container": "3.3.1",
-    "mongodb/mongodb": "1.1.0",
     "jeyroik/extas-m": "2.2.4"
   },
   "autoload": {
